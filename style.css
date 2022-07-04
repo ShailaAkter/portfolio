@@ -14,7 +14,7 @@ h1
     color: orange;
 }
 
-section
+.flexible-container
 {
     display: flex;
     margin-bottom: 100px;
@@ -53,4 +53,41 @@ section
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.h3-color
+{
+    color: tomato;
+}
+
+.box-shadow
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left : 10px;
+    border-radius: 10px;
+}
+
+.area
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.blue
+{
+    border-left: 7px solid tomato;
+}
+
+.teal
+{
+    border-left: 7px solid teal;
+}
+
+footer p
+{
+    text-align: center;
 }
